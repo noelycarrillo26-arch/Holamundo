@@ -7,7 +7,7 @@ def main(page: Page):
    page.horizontal_alignment = "center"
 
    def on_click():
-       text.value = "¡Hola, undo!" 
+       text.value = "¡Hola, mundo!" 
        page.update()
 
    text = Text(value="")
